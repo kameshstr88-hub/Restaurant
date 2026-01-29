@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reestar</title>
+    <title>Reestar | Food Ordering</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,50 +12,64 @@
 </head>
 
 <body>
-   <body>
-    <div class="section-one">
-        <h1 class="Section-one__title">Reestar</h1>
-        <p class="section-one__desc">Home | Recipe | Contact</p>
-    </div>
 
-    <div class="container">
+    <!-- Header -->
+    <header class="header">
+        <h1 class="logo">Reestar</h1>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Recipes</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Recipe Section -->
+    <section class="container">
         <div class="recipe-card">
-            <img src="https://picsum.photos/200/300" class="card-img">
-            <h5>Tangy Tamarind Prawn Curry</h5>
-            <p>Something which is very delicious</p>
+            <img src="https://picsum.photos/300/200" alt="">
+            <h3>Tangy Tamarind Prawn Curry</h3>
+            <p>Rich flavor with coastal spices.</p>
             <button>Order Now</button>
         </div>
 
         <div class="recipe-card">
-            <img src="https://picsum.photos/200" class="card-img">
-            <h5>Tangy Tamarind Prawn Curry</h5>
-            <p>Something which is very delicious</p>
+            <img src="https://picsum.photos/301/200" alt="">
+            <h3>Spicy Chicken Roast</h3>
+            <p>Perfect blend of heat & taste.</p>
             <button>Order Now</button>
         </div>
 
         <div class="recipe-card">
-            <img src="https://picsum.photos/seed/picsum/200/300" class="card-img">
-            <h5>Tangy Tamarind Prawn Curry</h5>
-            <p>Something which is very delicious</p>
+            <img src="https://picsum.photos/302/200" alt="">
+            <h3>Veg Chettinad</h3>
+            <p>Authentic South Indian delight.</p>
             <button>Order Now</button>
         </div>
 
         <div class="recipe-card">
-            <img src="https://picsum.photos/200/300?grayscale" class="card-img">
-            <h5>Tangy Tamarind Prawn Curry</h5>
-            <p>Something which is very delicious</p>
+            <img src="https://picsum.photos/303/200" alt="">
+            <h3>Fish Curry</h3>
+            <p>Traditional & mouth-watering.</p>
             <button>Order Now</button>
         </div>
-    </div>
+    </section>
 
-    <div class="section-six">
-        <h3 class="section-six__title">Contact Us</h3>
-        <p class="section_six__name">Name: <input type="text" placeholder="Enter your Name"></p>
-        <p class="section_six__age">Age: <input type="number" placeholder="Enter your Age"></p>
-        <p class="section_six__email">Email: <input type="email" placeholder="Enter your Email"></p>
-        <button class="section_six__send">Send</button>
-    </div>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="number" placeholder="Your Age" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Reestar. All rights reserved.</p>
+    </footer>
+
 </body>
-</body>
-
 </html>
