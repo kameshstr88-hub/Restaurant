@@ -1,1 +1,8 @@
+
+--Reestar--
 Reestar is a simple and responsive food website built using HTML and CSS. It displays food recipes in a clean card-based layout and adapts smoothly to desktop, tablet, and mobile screens using Flexbox and media queries. This project helped me understand responsive design, layout structuring, and basic UI styling.
+
+----
+
+--How to view--
+   --👉 https://kameshstr88-hub.github.io/Restaurant/--
